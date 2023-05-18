@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>demo</title>
+<link rel="stylesheet" type="text/css" href="./layui/css/layui.css" />
+<script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.1.0/build/g6.js"></script>
+</head>
+
+<body>
+    <div class="main_box" >
+        <div  class="graph" style="text-align: center;height: 4vh;background: #83C0E1;line-height: 40px;color: white;font-weight: 600;font-size: 18px;border-radius: 4px 4px 4px 4px;font-family: Times New Roman;">
+            我是标题
+        </div>
+		<div class="up_box">
+            我是功能区
+        </div>
+          <div class = "down_box" style="display: flex">
+            <div class = "downleft_box" >
+                我是画布
+            </div>
+		    <div class = "downright_box" >
+			<button class="layui-btn layui-btn-primary layui-border-blue" style="margin-top: 1vh;margin-left:2vw;width:21vw;text-align: center" id="jisuan">我是显示区</button>
+			<p id="show" style="width:19.5vw;float:left;height:70vh;border-radius: 4px 4px 4px 4px;border: 1px solid #1E9FFF;text-align:left;padding: 10px;line-height: 21px;margin: 2vh 2vw;
+			box-shadow: 1px 1px 10px #1E9FFF; "></p>
+		  	</div>
+          </div>
+    </div>
+</body>
+<style type="text/css">
+    body{padding: 0px;margin: 0px;}
+        .main_box{width: 100vw;height: 100vh;}
+        .up_box{width: 100vw;height: 15vh; background-color: #656565;}
+        .down_box{width: 100vw;height: 81vh; }
+		.downleft_box{width: 75vw;height: 81vh;  background-color: aquamarine;}
+		.downright_box{width: 25vw;height: 81vh;  background-color: burlywood;}
+	</style>
+</html>
